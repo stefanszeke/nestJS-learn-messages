@@ -1,0 +1,16 @@
+
+### get all
+GET http://localhost:3000/message
+
+
+### get one
+GET http://localhost:3000/message/1
+
+### create a message
+POST http://localhost:3000/message
+Content-Type: application/json
+
+{
+  "message": "Whats up nest JS"
+}
+
